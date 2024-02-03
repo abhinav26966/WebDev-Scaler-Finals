@@ -1,0 +1,115 @@
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+#scaler-logo{
+    margin-right: 1100px;
+    height: 35px;
+    width: 100px;
+}
+#scaler-social{
+    height: 35px;
+    width: 150px;
+}
+.heading{
+    display: flex;
+}
+.left-div{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 760px;
+    width: 900px;
+    margin-left: 0px;
+    margin-right: 10px;
+    background-color: #F0F8FF;
+}
+.right-div{
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+.tobeflexed{
+    display: flex;
+}
+#person-logo{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 160px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.right-1st{
+    height: 200px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-2nd{
+    height: 200px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-2nd-main2{
+    margin-bottom: 80px;
+    margin-left: 10px;
+}
+.main-div1{
+    border: 0.5px #00000099 solid; 
+    background-color: #fff; 
+    border-radius: 25px; 
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.3); 
+    padding: 20px;
+}
+.main-div2{
+    border: 0.5px #00000099 solid; 
+    background-color: #fff; 
+    border-radius: 25px; 
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.3); 
+    padding: 20px;
+    margin-top: 20px;
+}
+.heart-comment{
+    margin-left: 40px;
+    display: flex;
+}
+.right-1st-main2{
+    margin-bottom: 80px;
+    margin-left: 10px;
+}
+.chat-input #box{
+    height: 190px;
+    width: 400px;
+    border: 0.5px #00000099 solid; 
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.3); 
+    padding: 20px;
+}
+#post-button{
+    margin-top: 5px;
+    margin-left: 240px;
+    background-color: blue;
+    width:200px;
+    font-weight: bold;
+    font-size: medium;
+    color:white;
+    border: 0.5px #00000099 solid; 
+    border-radius: 15px; 
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.3); 
+    padding: 20px;
+}
+#post-button:hover {
+    transition: background-color 0.4s ease;
+    transition: width 0.4s ease;
+    width: 190px;
+    background-color: #F0FFFF;
+    color: black;
+  }
